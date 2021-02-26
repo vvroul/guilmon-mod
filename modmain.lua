@@ -41,8 +41,8 @@ local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
 -- The character select screen lines
-STRINGS.CHARACTER_TITLES.esctemplate = "The Sample Character"
-STRINGS.CHARACTER_NAMES.esctemplate = "Esc"
+STRINGS.CHARACTER_TITLES.esctemplate = "Guilmon"
+STRINGS.CHARACTER_NAMES.esctemplate = "Guilmon"
 STRINGS.CHARACTER_DESCRIPTIONS.esctemplate = "*Perk 1\n*Perk 2\n*Perk 3"
 STRINGS.CHARACTER_QUOTES.esctemplate = "\"Quote\""
 STRINGS.CHARACTER_SURVIVABILITY.esctemplate = "Slim"
@@ -51,8 +51,8 @@ STRINGS.CHARACTER_SURVIVABILITY.esctemplate = "Slim"
 STRINGS.CHARACTERS.ESCTEMPLATE = require "speech_esctemplate"
 
 -- The character's name as appears in-game 
-STRINGS.NAMES.ESCTEMPLATE = "Esc"
-STRINGS.SKIN_NAMES.esctemplate_none = "Esc"
+STRINGS.NAMES.ESCTEMPLATE = "Guilmon"
+STRINGS.SKIN_NAMES.esctemplate_none = "Guilmon"
 
 -- The skins shown in the cycle view window on the character select screen.
 -- A good place to see what you can put in here is in skinutils.lua, in the function GetSkinModes
@@ -67,4 +67,4 @@ local skin_modes = {
 }
 
 -- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("esctemplate", "FEMALE", skin_modes)
+AddModCharacter("esctemplate", "ROBOT", skin_modes)
